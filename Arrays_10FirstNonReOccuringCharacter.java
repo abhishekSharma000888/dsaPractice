@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Arrays_10FirstNonOccuringElement {
+public class Arrays_10FirstNonReOccuringCharacter {
     public static void main(String[] args) {
 
         ArrayList<Character> a = new ArrayList<>();
