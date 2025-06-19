@@ -9,18 +9,11 @@ public class RemoveDuplicateElementsInTheList {
 
         int[] arr = {1, 2, 3, 2, 4, 1, 5};
 
-        List<Integer> sorted = Arrays.stream(arr)
-                .distinct()
-                .sorted()
+        List<Integer> l1= Arrays.stream(arr)
                 .boxed()
+                .distinct()
                 .collect(Collectors.toList());
 
-        for(int num: sorted){
-
-            System.out.println(num);
-        }
-
-        System.out.println("The end array with unique elements is: ");
-
+        System.out.println(l1);
     }
 }
