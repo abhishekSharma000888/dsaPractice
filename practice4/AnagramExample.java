@@ -12,7 +12,6 @@ public class AnagramExample {
         String secondInput = "Silent";
 
         input = input.toLowerCase();
-
         secondInput = secondInput.toLowerCase();
 
         char[] a1 = input.toCharArray();

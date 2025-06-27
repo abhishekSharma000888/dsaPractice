@@ -1,0 +1,3 @@
+Need to do the question 20 from strings,
+
+and we have finished upto question 5 from Arrays
