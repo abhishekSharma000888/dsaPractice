@@ -2,6 +2,12 @@ package practice29;
 
 public class ReverseStringWhileKeepingInputSpacesIntact {
 
+    /*
+    in order to reverse string while keeping the input spaces intact.
+    First: iterate over the string and add all spaces to the result string.
+    Second: take a variable j, assign to last index of input array, check we are not copying the spaces, and add element to
+    the result array.
+     */
     public static void main(String[] args) {
 
         String input = "Reverse this by keeping input spaces intact.";
