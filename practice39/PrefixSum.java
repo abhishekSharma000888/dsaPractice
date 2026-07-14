@@ -9,10 +9,8 @@ public class PrefixSum {
         prefixMap.put(0, 1);
 
         int sum = 0, count = 0;
-
         for (int num : nums) {
             sum += num;
-
             if (prefixMap.containsKey(sum - k)) {
                 count += prefixMap.get(sum - k);
             }
